@@ -18,7 +18,7 @@ const Who = () => {
             <h1 className='h1'> YOU ARE</h1>
             <button class="btn btn-success text-white btn-lg">
 				<i class="fa fa-user"></i>
-				<b>TEACHER</b></button>
+				<b>TEACHER</b></button>{'               '}
                 <button class="btn btn-primary text-white btn-lg" onClick={()=>navigate("/login")}>
                 <b>STUDENT</b><i class="fa fa-graduation-cap"></i></button>
                 
